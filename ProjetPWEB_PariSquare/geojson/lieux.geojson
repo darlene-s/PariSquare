@@ -1,0 +1,705 @@
+var mairies = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 1er Ardt",
+        "adresse": "15 Rue de Richelieu, 75001 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3356613558897217,
+          48.86465009960017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "mairie du 2ème Ardt",
+        "adresse": "8 Rue de la Banque, 75002 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340531198219443,
+          48.86695080272113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 3ème Ardt",
+        "adresse": "2 Rue Eugène Spuller, 75003 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3616111397817474,
+          48.86405286435004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 4ème Ardt",
+        "adresse": "2 Place Baudoyer, 75004 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.377510070800781,
+          48.85409863123821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 5ème Ardt",
+        "adresse": "21 Place du Panthéon, 75005 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.344457380967007,
+          48.846547682989794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 6ème Ardt",
+        "adresse": "78 Rue Bonaparte, 75006 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332765803692328,
+          48.851126046659004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 7ème Ardt",
+        "adresse": "116 Rue de Grenelle, 75007 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3205212110769846,
+          48.85769537827664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 8ème Ardt",
+        "adresse": "3 Rue de Lisbonne, 75008 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3177928343772494,
+          48.878311065651076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 9ème Ardt",
+        "adresse": "6 Rue Drouot, 75009 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340469982878917,
+          48.872699927326565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 10ème Ardt",
+        "adresse": "72 Rue du Faubourg Saint-Martin, 75010 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3576348809670065,
+          48.872435767240574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 11ème Ardt",
+        "adresse": "12 Place Léon Blum, 75011 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3794845423368316,
+          48.85931790512916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 12ème Ardt",
+        "adresse": "130 Avenue Daumesnil, 75012 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3880780423296675,
+          48.84185959252025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 13ème Ardt",
+        "adresse": "1 Place d'Italie, 75013 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3555755730109977,
+          48.833116360194175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 14ème Ardt",
+        "adresse": "2 Place Ferdinand Brunot, 75014 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3271679497143243,
+          48.83390989638115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 15ème Ardt",
+        "adresse": "31 Rue Peclet, 75015 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3002958576703327,
+          48.84239054900063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 16ème Ardt",
+        "adresse": "71 Avenue Henri Martin, 75016 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2768441497143233,
+          48.86445811367861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 17ème Ardt",
+        "adresse": "16-20 Rue des Batignolles, 75017 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.321744019604346,
+          48.88512045137419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 18ème Ardt",
+        "adresse": "1 Place Jules Joffrin, 75018 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3446966343843667,
+          48.892969683361706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 19ème Ardt",
+        "adresse": " 5-7 Place Armand Carrel, 75019 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.382132703692328,
+          48.883413167231836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Mairie du 20ème Ardt",
+        "adresse": "6 Place Gambetta, 75020 Paris",
+        "categ": "Mairies de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3990241269890027,
+          48.86560764303813
+        ]
+      }
+    }
+  ]
+}
+var gares ={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare d'Austerlitz",
+        "adresse": "8 Quai d'Austerlitz, 75013 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3659229278564453,
+          48.84161615171062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Montparnasse",
+        "adresse": "17 Boulevard de Vaugirard, 75015 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.315969467163086,
+          48.83850916871952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare du Nord",
+        "adresse": "112 Rue de Maubeuge, 75010 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3547542095184326,
+          48.88052184622007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Saint-Lazare",
+        "adresse": "13 Rue d'Amsterdam, 75008 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3251962661743164,
+          48.876514093876125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare de Lyon",
+        "adresse": "4 Place Louis Armand, 75012 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.373497486114502,
+          48.84479354860506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare de l'Est",
+        "adresse": "Place du 11 novembre 1918, 75010 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.359458804130554,
+          48.87708211351825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Paris Bercy Bourgogne - Pays d'Auvergne",
+        "adresse": "48 bis Boulevard de Bercy, 75012 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.382505465629933,
+          48.83992065395792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare d'Austerlitz",
+        "adresse": "8 Quai d'Austerlitz, 75013 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3659229278564453,
+          48.84161615171062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Montparnasse",
+        "adresse": "17 Boulevard de Vaugirard, 75015 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.315969467163086,
+          48.83850916871952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare du Nord",
+        "adresse": "112 Rue de Maubeuge, 75010 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3547542095184326,
+          48.88052184622007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Saint-Lazare",
+        "adresse": "13 Rue d'Amsterdam, 75008 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3251962661743164,
+          48.876514093876125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare de Lyon",
+        "adresse": "4 Place Louis Armand, 75012 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.373497486114502,
+          48.84479354860506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare de l'Est",
+        "adresse": "Place du 11 novembre 1918, 75010 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.359458804130554,
+          48.87708211351825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieu": "Gare Paris Bercy Bourgogne - Pays d'Auvergne",
+        "adresse": "48 bis Boulevard de Bercy, 75012 Paris",
+        "categ": "Gares de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.382505465629933,
+          48.83992065395792
+        ]
+      }
+    }
+  ]
+}
+var monuments ={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "La tour Eiffel",
+        "adresse": "5 avenue Anatole France, 75007 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2944581508636475,
+          48.858274060261955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Cathédrale Notre-Dame de Paris",
+        "adresse": "6 parvis Notre-Dame, Paris, 75004",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.349904775619507,
+          48.85291970657539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Panthéon",
+        "adresse": "Place du Panthéon, 75005 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.345849275588989,
+          48.846092692826645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Place de la Concorde",
+        "adresse": "Place de la Concorde, 75008 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3211944103240967,
+          48.86549111916106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Basilique du Sacré-Coeur de Montmartre",
+        "adresse": "Parvis du Sacré-Coeur - 35 rue du Chevalier de la Barre, 75018 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.343011498451233,
+          48.88676215220168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Arc de Triomphe",
+        "adresse": "Place Charles de Gaulle, 75008 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2950589656829834,
+          48.873751521294196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Sainte-Chapelle",
+        "adresse": "8 boulevard du Palais, 75001 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3449909687042236,
+          48.855334001545785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Grand Palais",
+        "adresse": "3 avenue du Général Eisenhower, 75008 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.312418222427368,
+          48.866147484622665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Hôtel de Ville de Paris",
+        "adresse": "Mairie de Paris - Place de l'Hôtel de Ville, 75004 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.352544069290161,
+          48.85642110219938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#994d4d",
+        "marker-size": "medium",
+        "marker-symbol": "monument",
+        "lieu": "Palais de Tokyo",
+        "adresse": "13 avenue du Président Wilson, 75016 Paris",
+        "categ": "Monuments de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.296464443206787,
+          48.86419247825795
+        ]
+      }
+    }
+  ]
+}
