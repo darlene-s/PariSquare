@@ -1,12 +1,11 @@
 # Projet de programmation WEB : Réalisation d'un jeu de quiz de géographie sur les arrondissements parisiens (jeu de type GeoGuessr)
 Site Web en langage HTML5 (Bootstrap 4), CSS, Javascript (lib Leaflet), PHP
-##  I- A  propos
-Dans le cadre du module de programmation objet avancée (en langage Java), nous avons du réaliser une application permettant de gérer la vente de véhicules, en mobilisant l'ensemble des connaissances que nous avons pu acquérir en la matière.
 
-L'ensemble des fichiers sources (répertoire source, jar exécutable, Maven) ainsi que la documentation (fichier README.md, rapport d'expérimentations global) liés à notre projet sont disponibles au niveau de l'archive au format ZIP suivante : GAMO_KONDO_SOUCCOUCHETTY.zip
+##  I- A  propos
+Ce projet consistait en la réalisation une application WEB, implémentant une carte interactive. Pour se faire nous avons choisi de coder un jeu, centré sur la carte de Paris, où le but est de trouver l'arrondissement en fonction de la proposition affichée à l'écran.
+
+En complément de ce jeu, nous avons également codé une seconde carte, qui quant à elle, affiche des lieux cultes parisiens (mairies, monuments et gares), et des pop-up d'information caractérisant ces endroits.
 
 ## II- Note de fin
-Projet réalisé par Gamo Christian | Kondo Haru | Souccouchetty Darlène
-Université Paris Dauphine - M1 MIAGE - Promo 2022/2023
-
-
+Projet réalisé par Gamo Christian | Merand Yoann | Souccouchetty Darlène
+IUT Paris Descartes Promo 2A 2020/2021
